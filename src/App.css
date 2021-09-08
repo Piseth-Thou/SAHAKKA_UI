@@ -1,0 +1,612 @@
+.ant-tabs,.ant-tabs-tab{
+    font-size: 1em !important;
+}
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    font-weight: 600 !important;
+    font-family: 'Cabin', sans-serif ,'Kantumruy', sans-serif !important;
+    line-height: 2em !important;
+}
+.page-item.active .page-link {
+    color: #000 !important;
+    background-color: #ffb000 !important;
+    border-color: #ffb000 !important;
+}
+p{
+    line-height: 33px;
+    letter-spacing: -.015em;
+    font-size: 16px;
+    /* font-weight: 600; */
+    -webkit-align-items: center;
+    letter-spacing: -.015em;
+}
+.first-page h6,.footer h6{
+    font-size: 18px !important;
+}
+@media only screen and (width:1366px){
+    .header {
+        font-size: 14px;
+    }
+    .header a.nav-link {
+        margin: 0 10px !important;
+    }
+    .sample-steps:before {
+        width: 50vw !important;
+    }
+}
+
+@media only screen and (width:1024px){
+    /* ------------FirstPage-------------- */
+        /* ------------NavBar-------------- */
+    .header button.btn.btn-outline-success {
+        margin: 2px 5px 0 5px !important;
+        padding: 2px 13px !important;
+        font-size: 13px !important;
+    }
+    .header form.d-flex {
+        width: 240px !important;
+    }
+    .header a.nav-link {
+        font-size: 13px !important;
+    }
+    .header a.nav-link {
+        margin: 0 0 0 16px !important;
+    }
+    .header span.anticon.anticon-global {
+        font-size: 14px !important;
+        margin-left: 5px !important;
+        margin-top: 11px !important;
+    }
+    .header button.btn.btn-outline-success {
+        border: solid 1px #ffb000  !important;
+    }
+    .accout-icoin img {
+        height: 30px !important;
+        width: 30px !important;
+    }
+    /* ----------------Home Page------------- */
+    .first-page .categories {
+        height: 200px !important;
+    }
+    .first-page .owl-carousel .owl-item img {
+        height: 200px !important;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        margin-top: -141px !important;
+        margin-right: -31px !important;
+    }
+    .owl-carousel .owl-nav button.owl-prev {
+        margin-top: -141px !important;
+        margin-left: -30px !important;
+    }
+    .our-team {
+        padding: 0 !important;
+    }
+    .h1-title {
+        margin-top: 1em !important;
+    }
+    h1.mt-5.h1-title {
+        margin-top: 1em !important;
+    }
+    .search-project .card-cover {
+        height: 250px !important;
+    }
+    .sample-steps:before {
+        width: 58vw !important;
+        margin-top: 2.6em !important;
+        margin-left: 12em !important;
+    }
+    /* ---------------------End First Page------------------- */
+
+    /* ------------------------Freelancer------------------------ */
+    .free-feed .categories button.btn.btn-warning {
+        margin: 0px 8px 16px 0px !important;
+    }
+    .free-feed .bs-card .card-cover {
+        height: 198px !important;
+    }
+    .bs-card .like, .bs-card .comment{
+        padding: 12px 14px !important;
+    }
+    .card-service button.btn.btn-secondary{
+            padding: 5px 20px !important;
+    }
+    .bs-card .bs-card-title, .bs-card .bs-card-des, .card-service .free-card-title, .card-service .free-card-des {
+        -webkit-line-clamp: 1 !important;
+    }
+    .card-service .cover-post {
+        height: 200px !important;
+    }
+    .d-flex.nation-gender {
+        display: block !important;
+    }
+    .bs-profile .bs-card .card-cover {
+        height: 152px !important;
+    }
+    .bs-profile .bs-card .like, .bs-profile .bs-card .comment {
+        padding: 3px 10px !important;
+    }
+    .bs-card span.deadline{
+        display: flex;
+        margin-top: 1em;
+    }
+    /* --------------------------------Business-------------------------- */
+    .bu-feed h2.welcome-title {
+        margin-top: 1em !important;
+    }
+    .search-by-category .category-title {
+        margin-top: 3em !important;
+    }
+    .bu-feed .categories {
+        height: 200px !important;
+    }
+    .bu-feed .owl-carousel .owl-item img {
+        height: 200px !important;
+    }
+    .bs-profile .pro-card .btn-outline-dark {
+        padding: 5px 10px !important;
+        margin-bottom: 5px;
+    }
+    .bs-profile .pro-card .btn.btn-warning {
+        font-size: 11px !important;
+        margin-bottom: 2px !important;
+    }
+    .pro-card .btn-outline-dark {
+        padding: 5px 20px !important;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 568px){
+    /* ------------FirstPage-------------- */
+    /* ------------NavBar-------------- */
+    .header nav {
+        padding: 10px 15px;
+    }
+    .header .navbar {
+        display: block !important;
+    }    
+    .header .navbar-light .navbar-toggler {
+        float: right;
+    }
+    .header .navbar-nav-scroll{
+        max-height: 150px !important;
+    }
+    .header form.d-flex {
+        margin-top: 1em;
+        width: 100% !important;
+    }
+    .header span.anticon.anticon-global {
+        position: absolute; 
+        margin-left: 16px !important;
+        margin-top: 12px !important;
+    }
+    .header a{
+        color: black;
+    }
+    .header button.ant-dropdown-trigger.btn.btn-primary {
+        text-align: left;
+        padding-left: 1em;
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        background: #f8f9fa;
+        padding: 1em 2em;
+        transition: 0.5s;
+        left: 0;
+    }
+    .header .accout-icoin {
+        position: relative;
+        margin-left: 1em;
+    }
+    .header .accout-icoin .acc-over{
+        margin-left: 0em !important;
+        width: 200px !important;
+    }
+     /* ----------------Home Page------------- */
+    .first-page .categories {
+        height: 200px !important;
+    }
+    .owl-carousel .owl-item img {
+        height: 200px !important;
+    }
+    .owl-carousel .owl-nav button.owl-next {
+        margin-top: -141px !important;
+        margin-right: -31px !important;
+    }
+    .owl-carousel .owl-nav button.owl-prev {
+        margin-top: -141px !important;
+        margin-left: -30px !important;
+    }
+    .first-page button.btn.btn-warning {
+        font-size: 13px !important;
+        padding: 10px 20px !important;
+    }
+    .h1-title {
+        margin-top: 1em !important;
+    }
+    h2.mt-5.h1-title {
+        margin-top: 1em !important;
+    }
+    h1.mt-5.h1-title {
+        margin-top: 1em !important;
+    }
+    .sample-steps:before {
+        width: 58vw !important;
+        margin-top: 1.6em !important;
+        margin-left: 9em !important;
+    }
+    .text-center img {
+        border-radius: 25px 10px !important;
+    }
+    /* --------------About Us------------------- */
+    .about-us .our-team .profile {
+        height: 170px !important;
+        margin-top: 5em;
+    }
+    .our-team {
+        padding: 0 !important;
+    }
+    /* ---------------Freelancer--------------------------------------------------------------------- */
+    .free-feed .sticky {
+        position: sticky;
+        top: 1em;
+        z-index: 1;
+    }
+    .bs-card .card-cover {
+        height: 189px !important;
+    }
+    .bs-card .like, .bs-card .comment {
+        padding: 12px 15px !important;
+        font-size: 11px !important;
+        margin-right: 9px !important;
+    }
+    .bs-card span.deadline{
+        display: flex;
+        margin-top: 1em;
+    }
+    .ant-tabs.ant-tabs-top.ant-tabs-card.mt-4.ex-ac {
+        margin-top: -19px !important;
+    }
+    .profile-detail .education {
+        margin-bottom: 3em;
+    }
+    .d-flex.nation-gender {
+        display: block !important;
+    }
+    .addi-sec {
+        margin-top: -24px !important;
+    }
+    .bs-profile .bs-card .card-cover {
+        height: 170px !important;
+    }
+    /* --------------------------------Business-------------------------------------- */
+    .bu-feed h2.welcome-title {
+        margin-top: 1em !important;
+    }
+    .bu-feed .pro-card {
+        width: 100% !important;
+    }
+    .bu-feed .pro-card .btn.btn-warning {
+        margin-bottom: 5px;
+        padding: 5px 10px !important;
+    }
+    .bu-feed .pro-card .btn-outline-dark {
+        padding: 5px 20px !important;
+    }
+    .search-by-category .category-title {
+        margin-top: 2em !important;
+    }
+    .des button.btn.btn-warning {
+        padding: 3px 13px !important;
+    }
+    .bs-profile .pro-card .btn-outline-dark {
+        padding: 5px 20px !important;
+    }
+    .edit-pro .comp-info {
+        margin-top: 3em;
+    }
+    p.bio-bs {
+        margin-left: 0 !important;
+        margin-top: 1em !important;
+    }
+    .bu-feed .categories {
+        width: 100%;
+        height: 200px !important;
+    }
+    /* ------------Footer------------------------------------------------------------------- */
+    .footer p.text {
+        padding: 0 4em 0 0;
+        margin-top: 4em !important;
+    }
+    
+}
+
+@media screen and (max-width: 480px) {
+    /* --------------------NavBar------------- */
+    .header nav {
+        padding: 10px 15px;
+    }
+    .header .navbar {
+        display: block !important;
+    }    
+    .header .navbar-light .navbar-toggler {
+        float: right;
+    }
+    .header .navbar-nav-scroll{
+        max-height: 150px !important;
+    }
+    .header form.d-flex {
+        margin-top: 1em;
+        width: 100% !important;
+    }
+    .header span.anticon.anticon-global {
+        position: absolute; 
+        margin-left: 16px !important;
+        margin-top: 12px !important;
+    }
+    .header a{
+        color: black;
+    }
+    .navbar-collapse {
+        flex-basis: 100%;
+        flex-grow: 1;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        background: #f8f9fa;
+        padding: 1em 2em;
+        transition: 0.5s;
+        left: 0;
+    }
+    .header .accout-icoin {
+        position: relative;
+        margin-left: 1em;
+    }
+    .header .accout-icoin .acc-over{
+        margin-left: 0em !important;
+        width: 200px !important;
+    }
+    /* ------------------Home Page------------------ */
+    .revers{
+        flex-direction: column-reverse;
+    }
+    .first-page .owl-carousel .owl-nav button.owl-next {
+        display: none;
+    }
+    .first-page .text-center.col-lg-4.col-md-4 {
+        margin-bottom: 2em;
+    }
+    .first-page .h1-title{
+        margin-top: 1em !important;
+    }
+    .first-page button.btn.btn-warning {
+        margin-top: 1em !important;
+        padding: 10px 20px !important;
+    }
+    /* --------------Login Singup---------- */
+    .left-side img {
+        display: none;
+    }
+    .log-in .right-side {
+        margin-top: 1em !important;
+    }
+    .sing-up .right-side {
+        margin-top: -10em;
+    }
+    .right-side.company , .right-side.contact {
+        margin-top: -5em;
+    }
+    .sing-up.personal.free .right-side {
+        margin-top: -6em;
+    }
+    .sing-up .ant-tabs-tab {
+        width: 13em !important;
+    }
+    .sing-up .d-flex.justify-content-between {
+        display: block !important;
+    }
+    search-project .card-cover {
+        height: 195px !important;
+    }
+    .sing-up.personal select {
+        width: 100% !important;
+    }
+    .sing-up.personal .choose-img {
+        margin-top: 2em !important;
+    }
+    /* ---------------About Us--------------- */
+    .about-us .our-team{
+        padding: 0 3em !important;
+        overflow: hidden;
+    }
+    .about-us .revers{
+        flex-direction: column-reverse;
+    }
+    .about-us .our-team .profile {
+        float: left !important;
+        margin-bottom: 2em;
+    }
+    .about-us .our-team .social-media img {
+        height: 36px;
+    }
+    .about-us .our-story,.about-us .our-mission,.about-us .our-vision {
+        padding: 0 !important;
+        margin-top: 2em;
+    }
+    .logo-img {
+        width: 100%;
+        overflow: hidden;
+        text-align: center;
+    }
+    .logo-img img {
+        width: 50%;
+    }
+    .sample-steps:before {
+        display: none;
+    }
+    /* ---------------------Freelancer-------------------- */
+    .free-feed h1.welcome-title {
+        margin-top: 0em !important;
+        margin-bottom: 1em;
+    }
+    .free-feed .title-cat {
+        margin-top: 2em;
+    }
+    .free-feed .my-feed-titile {
+        margin-top: 2em;
+    }
+    .free-feed .bs-card .card-cover {
+        height: 198px !important;
+    }
+    .bs-card .like, .bs-card .comment {
+        padding: 12px 10px !important;
+    }
+    .profile-detail .profile {
+        margin-top: -160px !important;
+        width: 45%;
+        margin: auto;
+    }
+    .profile-detail .service-card-sec {
+        margin-top: 2em;
+    }
+    .profile-detail .ant-tabs-tab {
+        width: 8.3em;
+    }
+    .profile-detail .ex-ac .ant-tabs-tab {
+        width: 12em !important;
+    }
+    .card-service button.btn.btn-secondary {
+        padding: 5px 20px !important;
+    }
+    .bs-profile .bs-card .card-cover {
+        height: 180px !important;
+    }
+    .bs-profile .name-bio {
+        margin-top: -3em !important;
+        margin-bottom: -2em;
+    }
+    .d-flex.nation-gender {
+        display: block !important;
+    }
+    .edit-pro .ant-form-item-label > label {
+        justify-content: end !important;
+    }
+    .edit-pro .ant-tabs-tab {
+        width: 11.8em !important;
+    }
+    .edit-pro .edit-cover-img {
+        margin-bottom: 1em;
+    }
+    p.free-card-title {
+        margin-top: 1em;
+    }
+    .bs-card span.deadline {
+        display: flex;
+        margin-top: 1em;
+    }
+    button.ant-dropdown-trigger.btn.btn-primary {
+        text-align: left;
+        padding-left: 1em;
+    }
+    .post-detail .post-cover {
+        margin-top: -1em !important;
+        height: 200px !important;
+    }
+    .post-detail .post-cover img {
+        width: 100%;
+    }
+    /* -----------------Business-------------- */
+    .bu-feed h2.welcome-title {
+        margin-top: 2em !important;
+    }
+    .bu-feed .owl-carousel .owl-nav button.owl-next,.bu-feed .owl-carousel .owl-nav button.owl-pre {
+        display: none !important;
+    }
+    .bu-feed .ant-tabs-tab {
+        width: 7.8em !important;
+    }
+    .bu-feed .pro-card {
+        width: 100% !important;
+    }
+    .bu-feed .pro-card .btn-outline-dark {
+        padding: 5px 25px !important;
+    }
+    .bu-feed .btn.btn-warning {
+        padding: 5px 20px !important;
+        margin-bottom: 5px;
+    }
+    .search-by-category .category-title {
+        margin-top: 2em !important;
+    }
+    .post-detail .des{
+        margin-top: -2em !important;
+    }
+    .post-detail .des button.btn.btn-warning {
+        font-size: 11px !important;
+        margin-bottom: 5px;
+    }
+    .post-detail .published-by {
+        margin-top: 1em;
+    }
+    .pro-card {
+        margin-bottom: 1em;
+    }
+    .pro-card.mt-2 img {
+        height: 220px;
+        object-fit: cover;
+    }
+    .profile-detail.bs-profile .pro-card {
+        padding: 1em 0;
+    }
+    .name-bio h4 {
+        text-align: center;
+        margin-top: -9px;
+    }
+    .name-bio p.bio{
+        margin-left: 1em;
+    }
+    .bs-profile .pro-card .btn-outline-dark {
+        padding: 5px 27px !important;
+    }
+    .h1-title {
+        margin-top: 1em !important;
+    }
+    h2.mt-5.h1-title {
+        margin-top: 1em !important;
+    }
+    .h1-title {
+        margin-top: 1em !important;
+    }
+    h1.mt-5.h1-title {
+        margin-top: 1em !important;
+    }
+    p.bio-bs {
+        margin-left: 0 !important;
+        margin-top: 1em !important;
+    }
+    .edit-pro .choose-img {
+        height: 21em !important;
+        overflow: hidden;
+    }
+    .post-service .seleted-img img {
+        overflow: hidden;
+        height: 230px !important;
+        object-fit: contain;
+    }
+    /* ---------Footer------------------ */
+    .footer .sahakka {
+        width: 8em;
+        margin: auto;
+        margin-bottom: 2em; 
+    }
+    .footer .sahakka.discover{
+        margin-top: 0em;
+    }
+    .footer p.text{
+        padding: 0 3em;
+    }
+}
+

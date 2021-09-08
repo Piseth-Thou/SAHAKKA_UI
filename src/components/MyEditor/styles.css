@@ -1,0 +1,17 @@
+.rdw-editor-toolbar {
+    display: none !important;
+  }
+  .public-DraftStyleDefault-block {
+    margin:0 !important;
+}
+  .public-DraftStyleDefault-block.public-DraftStyleDefault-ltr:before {
+    content: '⚫️';
+    margin-right: 1em;
+    font-size: 5px;
+  }
+  .DraftEditor-root {
+    padding: 6px 13px;
+    border: solid 0.8px #d2dfde;
+    height: 150px;
+    overflow-y: auto;
+  }

@@ -1,0 +1,51 @@
+.log-in {
+    padding-top: 30px;
+}
+img.log-pic {
+    width: 100%;
+}
+.log-in label {
+    font-weight: 600;
+}
+.log-in .right-side{
+    margin-top: 6em; 
+}
+.forgotPassword {
+    text-decoration: none;
+    color: #bcb4b4;
+    float: right;
+    margin-top: 8px;
+}
+
+/* ======buttom login============== */
+.log-in .right-side .ant-btn {
+    background: #FFB000;
+    border-color: #FFB000;
+    padding: 5px 30px;
+}
+.log-in .right-side .ant-input-affix-wrapper{
+    border-radius: 50px;
+    height: 40px;
+}
+.log-in .right-side .ant-btn:hover, .ant-btn:focus {
+    color: white;
+    background: #FFB000;
+}
+
+/* ---------Login with Facebook, Google---------- */
+.log-in .right-side .facebook-log button , .log-in .right-side .google-log button{
+    background: none;
+    border: 0.3px solid #e3e3e3;
+    border-radius: 30px;
+    background-position: left;
+    background-image: url(https://facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png?w=512&h=512);
+    background-size: 32px;
+    background-repeat: no-repeat;
+    text-align: left;
+    width: 100%;
+    padding: 5px 48px;
+}
+.log-in .right-side .google-log button {
+    background-image: url(https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-google-icon-logo-png-transparent-svg-vector-bie-supply-14.png);
+    background-size: 30px;
+}

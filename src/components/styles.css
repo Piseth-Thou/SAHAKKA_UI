@@ -1,0 +1,114 @@
+/* ------------Comment--------- */
+.ant-comment-avatar {
+    height: 56x !important;
+    width: 56px !important;
+    margin-right: 22px !important;
+}
+.ant-comment-avatar img{
+    height: 56px !important;
+    width: 56px !important;
+}
+span.ant-comment-content-author-name {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    width: 100%;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.85);
+}
+span.ant-comment-content-author-time {
+    font-size: 13px !important;
+    color: #47444B !important;
+}
+.ant-comment-content-detail {
+    font-size: 16px !important;
+    margin-top: 1em;
+}
+span.ant-avatar.ant-avatar-circle.ant-avatar-image {
+    width: 56px !important;
+    height: 56px !important;
+}
+button.ant-btn.ant-btn-primary {
+    float: right;
+}
+.ant-comment-avatar img{
+    height: 50px;
+    overflow: hidden;
+    width: 50px;
+    border: solid 0.1px #bdb4b4;
+    border-radius: 50%;
+    margin-right: 1em;
+    text-align: center;
+}
+/* --------------------------Choose img--------------------- */
+.edit-pro .choose-img {
+    overflow: hidden;
+}
+/* -----------------Footer------------- */
+.footer {
+    background: #47444b;
+    margin-top: 3em;
+    padding: 3em 0 0 0;
+    color: white;
+}
+.footer p.text {
+    margin-top: 4em;
+    font-size: 14px;
+    margin-left: 17px;
+    font-weight: 400;
+}
+.footer ul {
+    margin-top: 26px;
+    list-style: none;
+    color: white;
+    padding-left: 0 !important;
+}
+.footer ul.contact-us img {
+    height: 1.5em;
+    margin-right: 1em;
+}
+.footer ul.contact-us li {
+    margin-bottom: 6px;
+}
+.footer .b-footer {
+    background: #ffb000;
+    text-align: center;
+    color: #47444B;
+    font-size: 15px;
+    padding: 7px;
+    margin-top: 3em;
+    font-weight: 500;
+}
+.footer a ,.footer h6{
+    color:white !important;
+    text-decoration: none !important;
+}
+.footer li:hover {
+    margin-left: 5px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.footer li {
+    margin-bottom: 10px;
+}
+/* ---------------------OWL------------- */
+.owl-section .category-type {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: rgb(255,176,0,0.3);
+    color: #000000;
+    opacity: 0;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.owl-carousel .owl-item:hover img{
+    width: 90% !important;
+    transition: 0.5s;
+}
+.owl-carousel .owl-item:hover .category-type{
+    opacity: 1;
+}

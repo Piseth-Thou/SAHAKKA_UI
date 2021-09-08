@@ -1,0 +1,29 @@
+.sing-up .ant-form-item-label {
+    font-weight: 600;
+}
+.sing-up span.ant-input-affix-wrapper {
+    border-radius: 30px;
+    padding: 8px 15px;
+}
+.sing-up .have-acc{
+    margin-top: 4px;
+}
+.sing-up .btn-next-pre{
+    justify-content: space-between;
+    display: flex;
+}
+.sing-up .btn-next-pre .btn-warning , .sing-up .btn-next .btn-warning{
+    color: #000;
+    background-color: #ffb000;
+    border-color: #ffc107;
+    padding: 5px 0px;
+    border-radius: 30px;
+    font-size: 14px;
+    width: 8em;
+}
+.sing-up .btn-next .btn-warning{
+    float: right;
+}
+span.ant-input-affix-wrapper , input.ant-input {
+    padding: 8px 15px;
+}

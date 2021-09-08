@@ -1,0 +1,65 @@
+/* ========================== style for about-us page will move to diff soon================ */
+.first-page button.btn.btn-warning {
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top: 3em;
+    box-shadow: 1px 2px rgb(0 0 0 / 25%);
+}
+.first-page button.cancel.btn.btn-warning {
+    background: white;
+    border: solid 1px #efeeee;
+}
+.first-page button.draft.btn.btn-warning {
+    background: black;
+    color: #ffc107;
+    border: none;
+}
+.cus-border-button{
+  width   : 50px;
+  height  : 5px;   
+  border-radius: 10px;
+  position: relative;
+  z-index : 1;
+  background: #FFB000;
+}
+.cus-border-button{
+    width   : 50px;
+    height  : 5px;   
+    border-radius: 10px;
+    position: relative;
+    z-index : 1;
+    background: #FFB000;
+  }
+
+  .cus-border-button-team{
+    width   : 220px;
+    height  : 5px;   
+    border-radius: 10px;
+    position: relative;
+    z-index : 1;
+    background: #FFB000;
+  }
+.first-page.about-us {
+    padding: 2em 0;
+}
+.our-team-header::after {
+  content: '';
+  display: block;
+  width: 70px;
+  height: 5px;
+  background: #ffb000;
+  margin-left: 44%;
+  border-radius: 10px;
+  margin-bottom: 2.5em;
+  margin-top: 10px;
+}
+.our-team {
+  padding: 0 5em;
+}
+img.profile:hover {
+  margin-top: -1em;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-bottom: 1em;
+}

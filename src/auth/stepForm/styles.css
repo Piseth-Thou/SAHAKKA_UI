@@ -1,0 +1,59 @@
+.sing-up.personal .ant-col.ant-col-8.ant-form-item-label {
+    max-width: 100% !important;
+}
+.personal .social-media .ant-form-item-label > label::after {
+    content:none !important;
+}
+.personal .social-media .ant-form-item-label {
+    margin-right: 1em;
+}
+.personal .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border-radius: 30px !important;
+    width: 220px;
+}
+.sing-up.personal select {
+    border: solid 1px #d9d9d9;
+    border-radius: 30px;
+    padding: 8px 15px;
+    width: 200px;
+    height: 40px;
+}
+.sing-up.personal h6.label {
+    margin-top: 10px;
+}
+.sing-up.personal .choose-img {
+    margin-top: 13em;
+}
+.sing-up .ant-form-item-label {
+    font-weight: 600;
+}
+.sing-up.personal .seleted-img img {
+    height: 400px;
+    object-fit: contain;
+}
+.sing-up span.ant-input-affix-wrapper {
+    border-radius: 30px;
+    padding: 8px 15px;
+}
+.sing-up .have-acc{
+    margin-top: 4px;
+}
+.sing-up .btn-next-pre{
+    justify-content: space-between;
+    display: flex;
+}
+.sing-up .btn-next-pre .btn-warning , .sing-up .btn-next .btn-warning{
+    color: #000;
+    background-color: #ffb000;
+    border-color: #ffc107;
+    padding: 5px 0px;
+    border-radius: 30px;
+    font-size: 14px;
+    width: 8em;
+}
+.sing-up .btn-next .btn-warning{
+    float: right;
+}
+span.ant-input-affix-wrapper , input.ant-input {
+    padding: 8px 15px;
+}

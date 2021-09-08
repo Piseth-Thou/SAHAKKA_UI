@@ -1,0 +1,107 @@
+/* -----------Home Page------------- */
+.first-page .owl-carousel .owl-nav .item{
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    cursor: pointer;
+    font-size: 2em;
+    top: 20% !important; 
+}
+.first-page .owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+.first-page .categories{
+    width: 100%;
+    height: 280px;
+}
+.first-page .owl-carousel .owl-nav button.owl-prev  {
+    background: #FFB000;
+    color: black;
+    border: none;
+    padding: 10px !important;
+    font: inherit;
+    border-radius: 100rem;
+    margin-top: -175px;
+    float: left;
+    margin-left: -40px;
+}
+.first-page .owl-carousel .owl-nav button.owl-next{
+    background: #FFB000;
+    color: black;
+    border: none;
+    padding: 10px !important;
+    font: inherit;
+    border-radius: 100rem;
+    margin-top: -175px;
+    float: right;
+    margin-right: -40px;
+}
+.first-page .owl-carousel .owl-nav button.owl-next:hover{
+    background: #ffc038;
+    font-size: 20px;
+    color: black;
+}
+.first-page .owl-carousel .owl-nav button.owl-prev:hover{
+    background: #ffc038;
+    font-size: 20px;
+    color: black;
+}
+.search-project .card-cover {
+    height: 225px;
+}
+.search-project a {
+    color: black;
+    text-decoration: none;
+}
+.search-project .bs-card {
+    margin-bottom: 1em;
+}
+.text-center img {
+    border-radius: 40px 10px;
+}
+.text-center img:hover {
+    margin-top: -1em;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+img.image-tl:hover {
+    transition: 0.8s;
+    transform: translate(-25px,-25px);
+}
+img.image-tr:hover {
+    transition: 0.8s;
+    transform: translate(20px,20px);
+}
+.sample-steps img{
+    position: relative;
+}
+.sample-steps:before {
+    content: '';
+    background-color: #ffc107;
+    width: 44vw;
+    height: 0.4em;
+    position: absolute;
+    margin-top: 3.6em;
+    margin-left: 16em;
+}
+.ant-spin-dot-item {
+    background-color: #ffb000 !important;
+}
+.search-by-category.search-project .bs-card span.deadline {
+    margin-top: 2em;
+    display: flex;
+}
+/* ---pagination---- */
+.pagination a{
+    color: #000;
+}
+.page-item.active .page-link {
+    z-index: 3;
+    color: #000;
+    background-color: #ffb000;
+    border-color: #ffb000;
+}

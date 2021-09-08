@@ -1,0 +1,80 @@
+/* --------PostCard-------- */
+.pro-card {
+    width: 80%;
+}
+.pro-card.d-flex.mt-2 img{
+    height: 225px;
+}
+.pro-card:hover {
+    background: #fafafa;
+    padding: 1px;
+}
+.pro-card .btn.btn-warning {
+    border-radius: 30px;
+    background: #ffb107;
+    font-size: 14px;
+}
+.pro-card .btn-outline-dark{
+    padding: 5px 30px;
+    border-radius: 30px;
+}
+.pro-card a{
+    color: black;
+    text-decoration: none;
+}
+.pro-card a:hover{
+    color: #ffb107;
+}
+.pro-card.d-flex.mt-2 img {
+    height: 100%;
+    object-fit: cover;
+}
+.pro-card p.mt-3.description li {
+    list-style: none;
+}
+/* -------------Free card--------------- */
+.free-card a{
+    color: black;
+    text-decoration: none;
+}
+.free-card a:hover{
+ color: #ffb107;
+}
+.free-card .ant-card-body p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.free-card .ant-card-body p.text-skill {
+    -webkit-line-clamp: 1 !important;
+    color: #ffb000;
+    margin-top: -15px;
+    font-size: 14px;
+}
+.navbar-nav {
+    margin: auto;
+}
+.free-card .ant-card-cover img {
+    height: 173px;
+    object-fit: cover;
+}
+button.btn.btn-outline-success{
+    color: black;
+}
+button.button-action-style.delete:hover {
+    background: #f44336;
+    color: white;
+    border-color: #f14e4e;
+}
+button.button-action-style.pending:hover {
+    background: #d6c8c7eb;
+    color: white;
+    border-color: #d6c8c7eb;
+}
+button.button-action-style.update:hover {
+    background: #ffffffeb;
+    color: rgb(0, 0, 0);
+    border-color: #c1c1c1eb;
+}

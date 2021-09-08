@@ -1,0 +1,321 @@
+.ant-tabs-nav::before {
+    border-bottom: none !important;
+}
+.ant-tabs-tab {
+    width: 15.8em;
+    justify-content: center;
+}
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #000000 !important;
+}
+.ant-tabs-tab-active {
+    border-bottom: solid 4px #fbd98d !important;
+}
+.ant-tabs-card > .ant-tabs-nav .ant-tabs-tab, .ant-tabs-card > div > .ant-tabs-nav .ant-tabs-tab {
+    background: #EDEBEB;
+}
+/* ---------------------Feed-------------- */
+.free-feed .categories,.free-feed .my-profile{
+    border: 0.5px solid #BAB5B5;
+    border-radius: 10px;
+    padding: 13px 36px;
+    margin-top: 2em;
+}
+.free-feed .my-profile{
+    padding: 13px 20px;
+}
+.free-feed .categories button.btn.btn-warning {
+    background: white;
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 5px 22px;
+    margin: 0px 8px 8px 0px;
+}
+.free-feed .categories .btn-edit {
+    width: 100%;
+    font-size: 14px;
+    background: #EEEEEE;
+    color: black;
+    border: none;
+    margin-top: 1em;
+}
+.free-feed .my-feed {
+    padding: 0.6em;
+}
+.my-profile .btn.btn-warning {
+    width: 100%;
+    font-size: 14px;
+    border-radius: 8px;
+    background: #FFB000;
+}
+.free-feed .sticky{
+    position: sticky;
+    top: 1em;
+    z-index: 1;
+}
+.free-feed a {
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+.free-feed h1.welcome-title {
+    margin-top: 2em;
+}
+.profile-thumbnail img {
+    height: 60px;
+    overflow: hidden;
+    width: 60px;
+    border: solid 0.1px #bdb4b4;
+    border-radius: 50%;
+    margin-right: 1em;
+    text-align: center;
+    object-fit: cover;
+}
+.free-feed .sticky .text-skill {
+    color: #ffb000;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    margin-top: -10px;
+}
+/* ---------------------BsCardDetail------------------ */
+.bs-card-detail .addi-info img{
+    height: 2em;
+}
+/* ----------------BsProfileDetail------------------- */
+.bs-profile .project-list {
+    margin-top: 2.4em;
+}
+.bs-profile .bs-card {
+    margin-bottom: 1em;
+}
+.bs-profile a {
+    color: #000000 !important;
+    text-decoration: none !important;
+}
+.bs-profile .bs-card ul.slick-dots.slick-dots-bottom {
+    bottom: -16px;
+}
+.bs-profile .company-info {
+    border: solid 0.5px #C2BCBC;
+}
+.bs-profile .company-info .des{
+    padding: 20px 30px;
+}
+.profile-detail .profile img {
+    margin-top: -80px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    border: solid 6px #ffffff;
+    object-fit: cover;
+}
+.bs-profile .bs-card .card-cover{
+    height: 235px;
+    color: #fff;
+    line-height: 160px;
+    text-align: center;
+}
+/* ----------------Profile Detail------------- */
+.profile-detail .cover {
+    height: 350px;
+    overflow: hidden;
+}
+.profile-detail .contact-info {
+    border: solid 0.5px #C2BCBC;
+    padding: 20px 30px;
+    overflow: hidden;
+}
+.socail-medai {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 1em 0;
+}
+.socail-medai img{
+    margin-right: 1em;
+}
+.socail-medai img ,.contact-info img{
+    height: 2em;
+}
+.experience , .achivement , .education{
+    border: solid 0.5px #C2BCBC;
+    padding: 20px 30px;
+}
+.profile-detail .pending button.pending.btn.btn-secondary , .draft button.pending.btn.btn-secondary {
+    display: none;
+}
+.profile-detail .ex-ac .ant-tabs-tab {
+    width: 9em;
+    justify-content: center;
+}
+/* ------------------Post detial---------------- */
+.post-detail .post-cover img{
+    height: 100%;
+    object-fit: contain;
+}
+.post-detail .posted-by , .post-detail .addi-info , .des{
+    border: solid 0.5px #C2BCBC;
+    padding: 20px 30px;
+    overflow: hidden;
+}
+.post-detail .posted-by{
+    overflow: hidden;
+}
+.posted-by button.btn.btn-warning {
+    width: 100%;
+    margin-top: 1.5em;
+    font-size: 14px;
+    background: #ffb000;
+    border-radius: 8px;
+}
+.des button.btn.btn-warning {
+    font-size: 14px;
+    padding: 3px 15px;
+    border-radius: 30px;
+    background: #ffb000;
+    margin-right: 1em;
+    box-shadow: 1px 2px rgb(0 0 0 / 25%);
+}
+.review .post-date{
+    color: #47444B;
+    font-size: 13px;
+}
+.profile-reviewer img {
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 1em;
+    width: 50px;
+    border: solid 0.1px #bdb4b4;
+}
+/* -------------------Post service --------------- */
+.post-service{
+    padding-bottom: 20px;
+}
+.post-service .ant-select.select-after.ant-select-single.ant-select-show-arrow {
+    width: 100%;
+}
+.post-service button.btn.btn-warning {
+    font-size: 14px;
+    padding: 5px 30px;
+    border-radius: 30px;
+    margin-top: 3em;
+    box-shadow: 1px 2px rgb(0 0 0 / 25%);
+}
+.post-service button.cancel.btn.btn-warning {
+    background: white;
+    border: solid 1px #efeeee;
+}
+.post-service button.draft.btn.btn-warning {
+    background: black;
+    color: #ffc107;
+    border: none;
+}
+/* .post-service .ant-select-multiple .ant-select-selection-item {
+    background: #ffb000;
+} */
+/* -------------------Edit Pro-------------- */
+.edit-pro button.btn.btn-warning {
+    font-size: 14px;
+    padding: 5px 30px;
+    border-radius: 30px;
+    box-shadow: 1px 2px rgb(0 0 0 / 25%);
+}
+.edit-pro button.cancel.btn.btn-warning {
+    background: black;
+    color: #ffc107;
+    border: none;
+}
+.edit-pro label {
+    font-weight: 500;
+}
+.edit-pro .ant-form-item-label > label {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    height: 32px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    width: 8em;
+    justify-content: flex-end;
+}
+.edit-pro .ant-form-item-label > label::after {
+    content: '' !important;
+}
+.edit-pro h6.title {
+    font-size: 14px;
+    font-weight: 500;
+}
+.edit-pro button.btn.btn-danger {
+    font-size: 14px;
+    border-radius: 30px;
+    padding: 5px 30px;
+    color: #ffffff;
+    box-shadow: 1px 2px rgb(0 0 0 / 25%);
+}
+.edit-pro .reset-ps label {
+    width: 9.8em;
+    justify-content: center;
+}
+.edit-pro .b-footer {
+    background: #47444B;
+    text-align: center;
+    color: #FFB000;
+    font-size: 13px;
+    padding: 7px;
+    margin-top: 8em;
+}
+.edit-pro .footer{
+    display: none;
+}
+.edit-cover-img .seleted-img img {
+    height: 400px;
+    object-fit: contain;
+}
+/* ========================== style for about-us page will move to diff soon================ */
+.first-page button.btn.btn-warning {
+    font-size: 14px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top: 3em;
+    box-shadow: 1px 2px rgb(0 0 0 / 25%);
+}
+.first-page button.cancel.btn.btn-warning {
+    background: white;
+    border: solid 1px #efeeee;
+}
+.first-page button.draft.btn.btn-warning {
+    background: black;
+    color: #ffc107;
+    border: none;
+}
+.cus-border-button{
+  width   : 50px;
+  height  : 5px;   
+  border-radius: 10px;
+  position: relative;
+  z-index : 1;
+  background: #FFB000;
+}
+.cus-border-button{
+    width   : 50px;
+    height  : 5px;   
+    border-radius: 10px;
+    position: relative;
+    z-index : 1;
+    background: #FFB000;
+  }
+
+  .cus-border-button-team{
+    width   : 220px;
+    height  : 5px;   
+    border-radius: 10px;
+    position: relative;
+    z-index : 1;
+    background: #FFB000;
+  }
+  
+  

@@ -1,0 +1,138 @@
+/* ------------------Feed------------------- */
+.bu-feed .h1-style{
+    margin-top: 95px;
+}
+.bu-feed .btn.btn-warning {
+    color: #000;
+    background-color: #ffb107;
+    border-color: #ffb107;
+    border-radius: 30px;
+    font-size: 14px;
+    padding: 5px 30px;
+}
+.bu-feed .pro-card .btn-outline-dark {
+    font-size: 14px;
+}
+.bu-feed h2.welcome-title {
+    margin-top: 4em;
+}
+/* owl carousel style */
+.bu-feed .owl-carousel .owl-nav .item{
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    cursor: pointer;
+    font-size: 2em;
+    top: 20% !important; 
+}
+.bu-feed .owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+}
+.bu-feed .categories{
+    width: 100%;
+    height: 280px;
+}
+.bu-feed .owl-carousel .owl-nav button.owl-prev  {
+    background: #FFB000;
+    color: black;
+    border: none;
+    padding: 10px !important;
+    font: inherit;
+    border-radius: 100rem;
+    margin-top: -175px;
+    float: left;
+    margin-left: -40px;
+}
+.bu-feed .owl-carousel .owl-nav button.owl-next{
+    background: #FFB000;
+    color: black;
+    border: none;
+    padding: 10px !important;
+    font: inherit;
+    border-radius: 100rem;
+    margin-top: -175px;
+    float: right;
+    margin-right: -40px;
+}
+.bu-feed .owl-carousel .owl-nav button.owl-next:hover{
+    background: #ffc038;
+    font-size: 20px;
+    color: black;
+}
+.bu-feed .owl-carousel .owl-nav button.owl-prev:hover{
+    background: #ffc038;
+    font-size: 20px;
+    color: black;
+}
+.pending button.button-action-style,.draft button.button-action-style{
+    margin-right: 1em;
+}
+.pending .pending.btn.btn-outline-dark.btn-sm ,.draft .pending.btn.btn-outline-dark.btn-sm{
+    display: none;
+}
+.bu-feed .pro-card .description ,.bu-feed .pro-card .post-title {
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+.bu-feed .pro-card .description{
+    -webkit-line-clamp: 3 !important;
+}
+/* -------------------------Post Project----------------- */
+.post-service .seleted-img img {
+    /* overflow: hidden; */
+    height: 332px;
+    object-fit: contain;
+}
+/* ------------Profile Detail------------- */
+.profile-detail .pro-card .description ,.profile-detail .pro-card .post-title {
+    white-space: nowrap;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+}
+.profile-detail .pro-card .description{
+    -webkit-line-clamp: 2 !important;
+}
+.profile-detail.bs-profile .pro-card {
+    width: 100%;
+}
+
+/* ---------------------Search Freelancer ---------------- */
+.search-by-category .category-title{
+    margin-top: 3em;
+}
+.search-by-category .services-available .ant-card {
+    margin-bottom: 1.5em;
+}
+.post-detail .post-cover {
+    text-align: center;
+    margin-top: 3em;
+    height: 500px;
+}
+.post-detail .post-cover img{
+    width: 100%;
+}
+/* ----------------Free-Profile-Detail----------------- */
+.profile-detail .btn-contact-me{
+    font-size: 14px;
+    padding: 5px 30px;
+    background: #FFB000;
+}
+
+.edit-pro .seleted-img img {
+    height: 400px;
+    object-fit: contain;
+}
